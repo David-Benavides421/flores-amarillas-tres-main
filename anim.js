@@ -4,34 +4,36 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  
+  { text: "I just wanna see you smile", time: 10 },
+  { text: "I just wanna make you mine", time: 15 },
+  { text: "We can spend time, smoke away the time", time: 18 },
+  { text: "We can go anywhere you ever wanted, anything you ever dreamed", time: 21 },
+  { text: "I can make your dreams come true", time: 26 },
+  { text: "I'll be on my own, no crew", time: 29 },
+  { text: "Out here makin' these moves", time: 32 },
+  { text: "Singin' these big city blues", time: 35 },
+  { text: "I don't wanna think about you", time: 39 },
+  { text: "Every time I think about you", time: 40 },
+  { text: "I swear I fall in love again", time: 46 },
+  { text: "I remember everything you said", time: 49 },
+  { text: "Promise me it's real", time: 52 },
+  { text: "Girl, I got a deal", time: 55 },
+  { text: "You could be my girl if I could be your world", time: 58 },
+  { text: "Promise me it's real", time: 65 },
+  { text: "Girl, I got a deal", time: 68 },
+  { text: "You could be my girl if I could be your world", time: 71 },
+
+  { text: "And I just wanna see you shine", time: 103 },
+  { text: "Girl, you got stars for eyes", time: 106 },
+  
+
+  { text: "Baby, say you do", time: 126 },
+  { text: "Uh, uh, uh, uh, uh", time: 128 },
+  { text: "Maybe say you do", time: 132 },
+  { text: "🤍 Te amo preciosa 🤍", time: 132 },
 ];
+
 
 // Animar las letras
 function updateLyrics() {
